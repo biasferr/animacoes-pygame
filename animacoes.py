@@ -10,8 +10,6 @@ init()
 window = display.set_mode((720, 640))
 
 
-
-
 hero_walk_list_direita = []
 for i in range(4):
     hero_walk_list_direita.append(image.load(f'assets/Hero_Walk_0{i+1}.png'))
